@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: 44b088e3f2461f94e93fb33f5cd613df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6380153794522012190
+    second: Poisonball_65x9_0
+  - first:
+      213: -8128787432488665021
+    second: Poisonball_65x9_1
+  - first:
+      213: -1182566228662370129
+    second: Poisonball_65x9_2
+  - first:
+      213: 8697604922225806199
+    second: Poisonball_65x9_3
+  - first:
+      213: 4358997601018051775
+    second: Poisonball_65x9_4
+  - first:
+      213: -2711546097231326646
+    second: Poisonball_65x9_5
+  - first:
+      213: -1321359722425138502
+    second: Poisonball_65x9_6
+  - first:
+      213: -2042794246473433557
+    second: Poisonball_65x9_7
+  - first:
+      213: 7364707069665505073
+    second: Poisonball_65x9_8
+  - first:
+      213: -9072624846656392573
+    second: Poisonball_65x9_9
+  - first:
+      213: 7315739524221752556
+    second: Poisonball_65x9_10
+  - first:
+      213: 4129464835429888205
+    second: Poisonball_65x9_11
+  - first:
+      213: 1659786535423255085
+    second: Poisonball_65x9_12
+  - first:
+      213: -5404786658876399946
+    second: Poisonball_65x9_13
+  - first:
+      213: 6159054204351626171
+    second: Poisonball_65x9_14
+  - first:
+      213: 1024951436697259874
+    second: Poisonball_65x9_15
+  - first:
+      213: -2162300843449044565
+    second: Poisonball_65x9_16
+  - first:
+      213: -178104087973982278
+    second: Poisonball_65x9_17
+  - first:
+      213: 2489964538290801325
+    second: Poisonball_65x9_18
+  - first:
+      213: -3604419086139679650
+    second: Poisonball_65x9_19
+  - first:
+      213: 8760319949509955028
+    second: Poisonball_65x9_20
+  - first:
+      213: -7841104672590201481
+    second: Poisonball_65x9_21
+  - first:
+      213: 2324469257288559818
+    second: Poisonball_65x9_22
+  - first:
+      213: 5848028253386665148
+    second: Poisonball_65x9_23
+  - first:
+      213: -783471056396417199
+    second: Poisonball_65x9_24
+  - first:
+      213: -8543518471065360877
+    second: Poisonball_65x9_25
+  - first:
+      213: 5069412679908182151
+    second: Poisonball_65x9_26
+  - first:
+      213: -2496939776709003775
+    second: Poisonball_65x9_27
+  - first:
+      213: 6810534330189734847
+    second: Poisonball_65x9_28
+  - first:
+      213: -8356791788715459565
+    second: Poisonball_65x9_29
+  - first:
+      213: -3285713029086901919
+    second: Poisonball_65x9_30
+  - first:
+      213: 829080637271071282
+    second: Poisonball_65x9_31
+  - first:
+      213: 305645811357244091
+    second: Poisonball_65x9_32
+  - first:
+      213: 7974506211359042100
+    second: Poisonball_65x9_33
+  - first:
+      213: -2685061443408163496
+    second: Poisonball_65x9_34
+  - first:
+      213: -2334499586870581258
+    second: Poisonball_65x9_35
+  - first:
+      213: -5196641564713903330
+    second: Poisonball_65x9_36
+  - first:
+      213: 4811544003019468550
+    second: Poisonball_65x9_37
+  - first:
+      213: 5608425301694343008
+    second: Poisonball_65x9_38
+  - first:
+      213: 9124374586184244150
+    second: Poisonball_65x9_39
+  - first:
+      213: -5741303812408909711
+    second: Poisonball_65x9_40
+  - first:
+      213: 7450603352201304255
+    second: Poisonball_65x9_41
+  - first:
+      213: 5579365446628546848
+    second: Poisonball_65x9_42
+  - first:
+      213: 3118977529759971780
+    second: Poisonball_65x9_43
+  - first:
+      213: -1828243344022529832
+    second: Poisonball_65x9_44
+  - first:
+      213: -8134688605467337708
+    second: Poisonball_65x9_45
+  - first:
+      213: 4944462465170158351
+    second: Poisonball_65x9_46
+  - first:
+      213: 5133004200101965289
+    second: Poisonball_65x9_47
+  - first:
+      213: -5004266542209033368
+    second: Poisonball_65x9_48
+  - first:
+      213: 4647047191615020399
+    second: Poisonball_65x9_49
+  - first:
+      213: 9173282481090683207
+    second: Poisonball_65x9_50
+  - first:
+      213: 5045999068937386829
+    second: Poisonball_65x9_51
+  - first:
+      213: -4884338136836381942
+    second: Poisonball_65x9_52
+  - first:
+      213: -3010644409436363991
+    second: Poisonball_65x9_53
+  - first:
+      213: -6682066088565948561
+    second: Poisonball_65x9_54
+  - first:
+      213: -8619132011638818457
+    second: Poisonball_65x9_55
+  - first:
+      213: -196226722027626877
+    second: Poisonball_65x9_56
+  - first:
+      213: 2423553916588851836
+    second: Poisonball_65x9_57
+  - first:
+      213: -1143622667576397427
+    second: Poisonball_65x9_58
+  - first:
+      213: -9221010207403559279
+    second: Poisonball_65x9_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poisonball_65x9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7901bfa557ab8684ead27ca3f6130ed7
+      internalID: 6380153794522012190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a783a217b696dc0438e5bb10a37b1bd2
+      internalID: -8128787432488665021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6500933aa24a457419c14b62795ada26
+      internalID: -1182566228662370129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208c7af183ed7a245808feb9d7739bce
+      internalID: 8697604922225806199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb41c7c65dbe45b4a84a6141dae9cf99
+      internalID: 4358997601018051775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477dad21f198dc440b5958c3de578f6f
+      internalID: -2711546097231326646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858354d9d074de142aa626c8e596e92b
+      internalID: -1321359722425138502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9112da12bdeeff4d848a1306b5b8363
+      internalID: -2042794246473433557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509fdf41cb0ac094391a1c1a9fbd6c0e
+      internalID: 7364707069665505073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 45
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9138839bf8758439ed257800644ba5
+      internalID: -9072624846656392573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20640e2d937aae419c1cf44aeb4b814
+      internalID: 7315739524221752556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bda6c74696146448729cb24a93ed4f
+      internalID: 4129464835429888205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c211a7a107bb52547b05685dc9bcc025
+      internalID: 1659786535423255085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62a5b8656303db4c8008aa34af2541b
+      internalID: -5404786658876399946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fdf581a30d30047ab840e667b83978
+      internalID: 6159054204351626171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422d7bf9c7179804f870686cf2b799df
+      internalID: 1024951436697259874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b40619e39150b7499bcdc0bf7b8871a
+      internalID: -2162300843449044565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_17
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df8dfc8f8c25fa40bbc23273dfa6245
+      internalID: -178104087973982278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_18
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca13b6a7e4456e149af1d86a23a46b05
+      internalID: 2489964538290801325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_19
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 36
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eeeccda281774419d9d4ef43b108ca
+      internalID: -3604419086139679650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc784afc2629ef4db6e13878012a301
+      internalID: 8760319949509955028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5d157474f9e724aaa545c62ef16da8
+      internalID: -7841104672590201481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d441d59494d38468d6350011586e9d
+      internalID: 2324469257288559818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_23
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db743b7bbb163246a14c264c3b671f5
+      internalID: 5848028253386665148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_24
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06409072cd98bb44b4458793c120710
+      internalID: -783471056396417199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770f92bf8782e11438b230f8f2cd708a
+      internalID: -8543518471065360877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05ae176e6f23a44996762a898f9e065
+      internalID: 5069412679908182151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_27
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac4fa5768a856542b8367d878c7791d
+      internalID: -2496939776709003775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024e6e48c51149c4ca6ab247aeda19c0
+      internalID: 6810534330189734847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 27
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9113b5fc6df6f534dab1fe3daaa08a9b
+      internalID: -8356791788715459565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeb9b78034452a41b678ad5c30958fb
+      internalID: -3285713029086901919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b63def89316b7a4abcddb80d4689155
+      internalID: 829080637271071282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b18b74276551d74ab453ae603095259
+      internalID: 305645811357244091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fe18e1f7a158b439b2fd67167e889f
+      internalID: 7974506211359042100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_34
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a34decad4fb245a8de4708ff5769b
+      internalID: -2685061443408163496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_35
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc467458a9ce5242a923f64fd8d0ebd
+      internalID: -2334499586870581258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_36
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa4884711762a49b0a277b11143c2a
+      internalID: -5196641564713903330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_37
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ff25465cfc33f459776ee00a22c88d
+      internalID: 4811544003019468550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_38
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a9068dd13e3114d9ad38c099730bf0
+      internalID: 5608425301694343008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_39
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 18
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dd574055068a048adf50d2e205cbee
+      internalID: 9124374586184244150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218f2366de56aff41bd884da1f32c920
+      internalID: -5741303812408909711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_41
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d261f78b844ba2448cd3b7eb4f7e2d6
+      internalID: 7450603352201304255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a33b5f757842240a4374b3e6b8fc30
+      internalID: 5579365446628546848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_43
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94613695282cf4d4c803dd403c3aec07
+      internalID: 3118977529759971780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_44
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e733334fe734c6f4da60ce4f68f76c17
+      internalID: -1828243344022529832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_45
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458ccd8ab82c2b84fa7ebb976e533e4c
+      internalID: -8134688605467337708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_46
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c74a3f05c18dd4abe98458a89c55e3
+      internalID: 4944462465170158351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_47
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571e36a8127d0164c94bb951d6ac1922
+      internalID: 5133004200101965289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_48
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3154cba83a0af4fa89e3ae0575009f
+      internalID: -5004266542209033368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_49
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 9
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f51747dd9d6da947aa1f277661c6a9c
+      internalID: 4647047191615020399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa79463b18a5f34da94b9f3a40c7ced
+      internalID: 9173282481090683207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_51
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bbbb958a0d7324ca0f645f5695fe9e
+      internalID: 5045999068937386829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317271ef123e9de4a8fde1a7dd097a74
+      internalID: -4884338136836381942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_53
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743fc5f3de4116645b8e13248e017747
+      internalID: -3010644409436363991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ba47a1cb813914b99fd702900e787d
+      internalID: -6682066088565948561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_55
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e4efa22247760419b6d94033e5ef6d
+      internalID: -8619132011638818457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_56
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7bc5c6b84fa9d46bcb1296c5dc85a3
+      internalID: -196226722027626877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_57
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b78cd53db267a84d96c3b472beeba5b
+      internalID: 2423553916588851836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_58
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344a0bc79313f4648bde0a58f5e22956
+      internalID: -1143622667576397427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisonball_65x9_59
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81b094ff14dbc428fc8e1b00582319
+      internalID: -9221010207403559279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

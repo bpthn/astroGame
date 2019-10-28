@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class player_controller : MonoBehaviour {
+    public GameObject projecttilePrefab;
     public float speed;
     float x, sx;
     bool ks;
@@ -19,10 +20,17 @@ public class player_controller : MonoBehaviour {
     void Update () {
         x = Input.GetAxis ("Horizontal");
         am.SetFloat ("speed", Abs (x));
-        if (Input.GetButtonDown ("Jump")) {
+        if (Input.GetKeyDown(KeyCode.Space)) {
             am.SetBool ("jump", true);
             rb.velocity = new Vector2 (rb.velocity.x, 5f); //5f ตัวกำหนกว่าให้วิ่งเร็วหรือช้า  
         }
+        if (Input.GetKeyDown(KeyCode.A)) {
+            am.SetBool ("shoot", true);
+            // rb.velocity = new Vector2 (rb.velocity.x, 1f);
+            Vector3 pos = new Vector3(transform.position.x+3, transform.position.y, transform.position.z);
+            Instantiate(projecttilePrefab, pos, projecttilePrefab.transform.rotation);
+        }
+        
         rb.velocity = new Vector2 (x * speed, rb.velocity.y);
         if (x > 0) {
             transform.localScale = new Vector3 (sx, transform.localScale.y, transform.localScale.z);
@@ -31,11 +39,19 @@ public class player_controller : MonoBehaviour {
             transform.localScale = new Vector3 (-sx, transform.localScale.y, transform.localScale.z);
         }
 
+        
+
     }
     void OnCollisionEnter2D (Collision2D coll) {
         am.SetBool ("jump", false);
+        am.SetBool ("shoot", false);        
+
     }
+    
+    
     float Abs (float x) {
         return x >= 0f ? x : -x;
     }
+
+
 }
