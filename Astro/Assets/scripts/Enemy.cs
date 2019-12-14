@@ -2,24 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class enemy : MonoBehaviour
 {
-     // Start is called before the first frame update
-    public GameObject[] enemyPrefabs;
-    int enemyIndex;
-    float randPosX, randPosY;
-    void Start()
+    public int health = 100;
+    public GameObject deathEffect;
+
+    public void TakeDamage(int damage)
     {
-        InvokeRepeating("InstantiateEnemy", 0f, 1f);
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
     }
 
-    void InstantiateEnemy()
+    void Die()
     {
-        enemyIndex = Random.Range(0,1);
-        randPosX = Random.Range(-1f, 12f);
-        // randPosY = Random.Range(-1f, 1f);
-        Instantiate(enemyPrefabs[enemyIndex], new Vector3(randPosX, -1f, 1f),
-                    enemyPrefabs[enemyIndex].transform.rotation);
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class player_controller : MonoBehaviour {
-    public GameObject projecttilePrefab;
     public float speed;
     float x, sx;
     bool ks;
@@ -24,11 +23,13 @@ public class player_controller : MonoBehaviour {
             am.SetBool ("jump", true);
             rb.velocity = new Vector2 (rb.velocity.x, 5f); //5f ตัวกำหนกว่าให้วิ่งเร็วหรือช้า  
         }
-        if (Input.GetKeyDown(KeyCode.A)) {
+        if (Input.GetKeyDown(KeyCode.S)) {
             am.SetBool ("shoot", true);
-            // rb.velocity = new Vector2 (rb.velocity.x, 1f);
-            Vector3 pos = new Vector3(transform.position.x+3, transform.position.y, transform.position.z);
-            Instantiate(projecttilePrefab, pos, projecttilePrefab.transform.rotation);
+            rb.velocity = new Vector2 (rb.velocity.x, 1f);
+            
+            
+        } else {
+            am.SetBool ("shoot", false);
         }
         
         rb.velocity = new Vector2 (x * speed, rb.velocity.y);
@@ -52,6 +53,12 @@ public class player_controller : MonoBehaviour {
     float Abs (float x) {
         return x >= 0f ? x : -x;
     }
+
+    // private void Flip(){
+    //     transform.rotate(0f, 180f, 0f);
+    // }
+
+    
 
 
 }
