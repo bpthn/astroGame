@@ -19,46 +19,50 @@ public class player_controller : MonoBehaviour {
     void Update () {
         x = Input.GetAxis ("Horizontal");
         am.SetFloat ("speed", Abs (x));
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.W)) {
             am.SetBool ("jump", true);
-            rb.velocity = new Vector2 (rb.velocity.x, 5f); //5f ตัวกำหนกว่าให้วิ่งเร็วหรือช้า  
+            rb.velocity = new Vector2 (rb.velocity.x, 10f); //5f ตัวกำหนกว่าให้วิ่งเร็วหรือช้า  
         }
         if (Input.GetKeyDown(KeyCode.S)) {
             am.SetBool ("shoot", true);
             rb.velocity = new Vector2 (rb.velocity.x, 1f);
+                        
             
-            
-        } else {
+        }
+        else {
             am.SetBool ("shoot", false);
+            //am.SetBool("jump", false);
         }
         
         rb.velocity = new Vector2 (x * speed, rb.velocity.y);
         if (x > 0) {
-            transform.localScale = new Vector3 (sx, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector2 (sx, transform.localScale.y);
+            
         }
-        if (x < 0) {
-            transform.localScale = new Vector3 (-sx, transform.localScale.y, transform.localScale.z);
+        if (x < 0)
+        {
+            transform.localScale = new Vector2(-sx, transform.localScale.y);
+           
         }
 
-        
+
 
     }
-    void OnCollisionEnter2D (Collision2D coll) {
-        am.SetBool ("jump", false);
-        am.SetBool ("shoot", false);        
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        am.SetBool("jump", false);
+        am.SetBool("shoot", false);
 
     }
-    
-    
+
+
     float Abs (float x) {
         return x >= 0f ? x : -x;
     }
 
-    // private void Flip(){
-    //     transform.rotate(0f, 180f, 0f);
-    // }
+     
 
-    
+
 
 
 }

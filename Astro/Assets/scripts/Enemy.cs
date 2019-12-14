@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public int health = 100;
     public GameObject deathEffect;
+
+    
 
     public void TakeDamage(int damage)
     {
@@ -14,13 +16,45 @@ public class enemy : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            
         }
+        else
+        {
+            Debug.Log("Cannot destroy");
+        }
+
+
     }
 
     void Die()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        
+        /*GameObject e = Instantiate(deathEffect) as GameObject;
+        e.transform.position = transform.position;
+
+        
+        Destroy(e, 0.4f);*/ //หา assets of enemy death
+        
+        
+        Debug.Log("kill enemy");
+        this.gameObject.SetActive(false);
+
+        if (gameObject.tag.Equals("Enemy_lv1"))
+        {
+
+
+            Score.scoreValue += 10;
+
+
+
+        }
+        
+        if (gameObject.tag.Equals("Enemy_lv2"))
+        {
+            Score.scoreValue += 20;
+        }
+
     }
     // Start is called before the first frame update
     void Start()

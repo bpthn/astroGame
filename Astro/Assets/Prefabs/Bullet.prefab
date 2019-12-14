@@ -135,4 +135,5 @@ MonoBehaviour:
   speed: 20
   damage: 40
   rb: {fileID: 3759206779205811582}
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 2270619799569658466, guid: 51961e20721322e4183e594601ce8a2c,
+    type: 3}

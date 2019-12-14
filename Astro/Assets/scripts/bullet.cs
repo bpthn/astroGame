@@ -13,20 +13,46 @@ public class bullet : MonoBehaviour
     void Start()
     {
         rb.velocity = transform.right * speed;
+        Destroy(gameObject, 0.5f); //ปรับเวลาที่ให้ posion ball อยู่ในscene
 
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        enemy enemy = hitInfo.GetComponent<enemy>();
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        Debug.Log("hit enemy");
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+            
         }
-        Instantiate(impactEffect, transform.position, transform.rotation);
+        GameObject e = Instantiate(impactEffect) as GameObject;
+        e.transform.position = transform.position;
 
+
+        Destroy(e, 0.4f);
+        //Destroy(hitInfo.gameObject);
         Destroy(gameObject);
+        
+        this.gameObject.SetActive(false);
+
+        /*if (gameObject.tag.Equals("Enemy_lv1"))
+        {
+            Score.scoreValue += 10;
+        }
+        if (gameObject.tag.Equals("Enemy_lv2"))
+        {
+            Score.scoreValue += 20;
+        }*/
+
+
+
+
+
+
     }
+
+   
 
     
 }
