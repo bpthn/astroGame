@@ -7,7 +7,7 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public int damage = 40;
-    public GameObject impactEffect;
+   // public GameObject impactEffect;
     
     // Update is called once per frame
     void Update()

@@ -3,11 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class Enemy_control : MonoBehaviour
 {
-    public List<Vector2> positionList = new List<Vector2>();
+    List<Vector2> positionList = new List<Vector2>();
+	List<GameObject> enemy = new List<GameObject>();
 
-    public GameObject enemy1;
+	public GameObject enemy1;
+	public GameObject enemy2;
+	public GameObject enemy3;
+	public GameObject enemy4;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,26 +28,44 @@ public class Enemy_control : MonoBehaviour
         
     }
 
+
+
     void randomEnemy()
     {
-		positionList.Add(GameObject.Find("posenemy1").transform.position);
-		positionList.Add(GameObject.Find("posenemy2").transform.position);
-		positionList.Add(GameObject.Find("posenemy3").transform.position);
-		positionList.Add(GameObject.Find("posenemy4").transform.position);
+        for(int i = 1; i < 12; i++)
+        {
+            positionList.Add(GameObject.Find("posenemy" + i).transform.position);
+        }
 
-        int max = 4;
-		for (int i = 1; i < 5; i += 0)
-		{
-			int positionIndex = UnityEngine.Random.Range(0, max);
-			Debug.Log("index = " + positionIndex);
-			if (positionList[positionIndex] != null)
-			{
-				Instantiate(enemy1, positionList[positionIndex], Quaternion.identity);
-				positionList.Remove(positionList[positionIndex]);
-				i += 1;
-				max -= 1;
-			}
-		}
+        enemy.Add(enemy1);
+        enemy.Add(enemy2);
+        /*enemy.Add(enemy3);
+        enemy.Add(enemy4);*/
+
+
+
+
+
+
+        int enemyCount = 2;
+        int max = 12;
+        for (int i = 1; i < 12; i += 1)
+        {
+            int positionIndex = UnityEngine.Random.Range(0, max);
+            int enemyIndex = UnityEngine.Random.Range(0, enemyCount);
+
+            Debug.Log("index = " + positionIndex);
+            if (positionList[positionIndex] != null)
+            {
+                if (enemy[enemyIndex] != null)
+                {
+                    Instantiate(enemy[enemyIndex], positionList[positionIndex], Quaternion.identity);
+                    positionList.Remove(positionList[positionIndex]);
+                    //i += 1;
+                    //max -= 1;
+                }
+            }
+        }
 
     }
 }

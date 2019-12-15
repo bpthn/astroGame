@@ -8,6 +8,7 @@ public class player_controller : MonoBehaviour {
     bool ks;
     Animator am;
     Rigidbody2D rb;
+    public GameObject attackEffect;
     // Use this for initialization
     void Start () {
         am = GetComponent<Animator> ();
@@ -60,7 +61,15 @@ public class player_controller : MonoBehaviour {
         return x >= 0f ? x : -x;
     }
 
-     
+    public void TakeEffect()
+    {
+        GameObject e = Instantiate(attackEffect) as GameObject;
+        e.transform.position = transform.position;
+        Debug.Log("Take Effect of player");
+        Destroy(e, 0.5f);
+    }
+
+
 
 
 

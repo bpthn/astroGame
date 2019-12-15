@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 2434263195778234236}
   m_Layer: 0
   m_Name: astronaunt
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,8 +85,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4733151026628726676, guid: d381c71d4227fa3489d0be8409cb9751,
     type: 3}
   damage: 40
-  impactEffect: {fileID: 0}
-  lineRenderer: {fileID: 2434263195778234236}
 --- !u!212 &5039797614007142671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -180,7 +178,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.66, y: 0.8}
   m_EdgeRadius: 0
 --- !u!50 &5039797614007142668
 Rigidbody2D:
@@ -216,6 +214,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  attackEffect: {fileID: 2270619799569658466, guid: 51961e20721322e4183e594601ce8a2c,
+    type: 3}
 --- !u!120 &2434263195778234236
 LineRenderer:
   m_ObjectHideFlags: 0

@@ -36,15 +36,7 @@ public class bullet : MonoBehaviour
         
         this.gameObject.SetActive(false);
 
-        /*if (gameObject.tag.Equals("Enemy_lv1"))
-        {
-            Score.scoreValue += 10;
-        }
-        if (gameObject.tag.Equals("Enemy_lv2"))
-        {
-            Score.scoreValue += 20;
-        }*/
-
+       
 
 
 
