@@ -141,4 +141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 80
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 2270619799569658466, guid: 51961e20721322e4183e594601ce8a2c,
+    type: 3}
+  sceneName: Win

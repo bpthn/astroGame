@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1385328896268095646}
   - component: {fileID: 1385328896268095647}
+  - component: {fileID: -5159786892655164764}
+  - component: {fileID: 8476336047015324715}
   m_Layer: 0
   m_Name: HeartRandom
   m_TagString: Untagged
@@ -44,4 +46,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positionList: []
-  heart: {fileID: 3978512073825357963, guid: 8b785497325f5bc43ae885148a7325ee, type: 3}
+  heart: {fileID: 9059787050385570110, guid: 81ddeb4243b622c4584868f1acdba060, type: 3}
+--- !u!114 &-5159786892655164764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385328896268095644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79cd593b916ee8489eacde8ec32aedf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionList: []
+  heart: {fileID: 4660357673580551741, guid: 5c04532ab209f544ca60e0cc08a19064, type: 3}
+--- !u!114 &8476336047015324715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385328896268095644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10fcb217621b664a9f613c8fbcd0e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionList: []
+  heart: {fileID: 5351209775966189029, guid: 093f45056e9cbe84a8fd076303eadad5, type: 3}

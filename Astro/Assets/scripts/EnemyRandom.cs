@@ -8,7 +8,7 @@ public class EnemyRandom : MonoBehaviour
     public GameObject enemy1;
     public GameObject enemy2;
     public GameObject enemy3;
-    public GameObject enemy4;
+    //public GameObject enemy4;
     float randX;
     Vector2 whereToSpawn;
     public float spawnRate = 2f;

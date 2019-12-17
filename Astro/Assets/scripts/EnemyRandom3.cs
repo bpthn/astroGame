@@ -8,7 +8,7 @@ public class EnemyRandom3 : MonoBehaviour
     public GameObject enemy1;
     public GameObject enemy2;
     public GameObject enemy3;
-    public GameObject enemy4;
+    //public GameObject enemy4;
     float randX;
     Vector2 whereToSpawn;
     public float spawnRate = 2f;
@@ -25,8 +25,8 @@ public class EnemyRandom3 : MonoBehaviour
         enemy.Add(enemy1);
         enemy.Add(enemy2);
         enemy.Add(enemy3);
-        enemy.Add(enemy4);
-        int index = Random.Range(1, 5);
+       // enemy.Add(enemy4);
+        int index = Random.Range(1, 4);
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;

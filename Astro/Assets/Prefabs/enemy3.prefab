@@ -116,6 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 120
   deathEffect: {fileID: 0}
+  sceneName: Win
 --- !u!61 &-4351449741644462334
 BoxCollider2D:
   m_ObjectHideFlags: 0

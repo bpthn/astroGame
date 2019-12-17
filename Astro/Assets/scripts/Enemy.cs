@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
     public int health = 100;
     public GameObject deathEffect;
-   // public GameObject attackEffect;
+    public string sceneName;
+    // public GameObject attackEffect;
 
-    
+
 
     public void TakeDamage(int damage)
     {
@@ -30,13 +32,13 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
-        
 
-        /*GameObject e = Instantiate(deathEffect) as GameObject;
+
+        GameObject e = Instantiate(deathEffect) as GameObject;
         e.transform.position = transform.position;
 
-        
-        Destroy(e, 0.4f);*/ //หา assets of enemy death
+
+        Destroy(e, 0.4f); //หา assets of enemy death
 
 
         Debug.Log("kill enemy");
@@ -59,6 +61,7 @@ public class Enemy : MonoBehaviour
         if (gameObject.tag.Equals("Enemy_lv4"))
         {
             Score.scoreValue += 40;
+            Win();
         }
 
     }
@@ -73,23 +76,23 @@ public class Enemy : MonoBehaviour
 
             if (gameObject.tag.Equals("Enemy_lv1"))
             {
-                Score.scoreValue -= 10;
+                //Score.scoreValue -= 10;
                 Healthbar.health -= 10f;
             }
 
             if (gameObject.tag.Equals("Enemy_lv2"))
             {
-                Score.scoreValue -= 20;
+                //Score.scoreValue -= 20;
                 Healthbar.health -= 20f;
             }
             if (gameObject.tag.Equals("Enemy_lv3"))
             {
-                Score.scoreValue -= 30;
+                //Score.scoreValue -= 30;
                 Healthbar.health -= 30f;
             }
             if (gameObject.tag.Equals("Enemy_lv4"))
             {
-                Score.scoreValue -= 40;
+                //Score.scoreValue -= 40;
                 Healthbar.health -= 40f;
             }
 
@@ -98,6 +101,11 @@ public class Enemy : MonoBehaviour
         
 
 
+    }
+
+    void Win()
+    {
+        SceneManager.LoadScene(sceneName);
     }
     // Start is called before the first frame update
     void Start()

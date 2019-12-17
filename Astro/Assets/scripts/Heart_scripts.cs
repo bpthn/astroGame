@@ -23,10 +23,11 @@ public class Heart_scripts : MonoBehaviour
     {
         positionList.Add(GameObject.Find("posheart1").transform.position);
         positionList.Add(GameObject.Find("posheart2").transform.position);
-        
+        positionList.Add(GameObject.Find("posheart3").transform.position);
 
-        int max = 2;
-        for (int i = 1; i < 3; i += 0)
+
+        int max = 3;
+        for (int i = 1; i < 4; i += 0)
         {
             int positionIndex = UnityEngine.Random.Range(0, max);
             

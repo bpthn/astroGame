@@ -114,8 +114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72f642ef2d672e4a9ea716fef2da219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 160
+  health: 400
   deathEffect: {fileID: 0}
+  sceneName: Win
 --- !u!61 &4522687240761497252
 BoxCollider2D:
   m_ObjectHideFlags: 0

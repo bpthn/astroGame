@@ -67,6 +67,9 @@
     <Compile Include="Assets\scripts\bg.cs" />
     <Compile Include="Assets\scripts\bullet.cs" />
     <Compile Include="Assets\scripts\CameraFollow.cs" />
+    <Compile Include="Assets\scripts\Eagle.cs" />
+    <Compile Include="Assets\scripts\eagleRandom.cs" />
+    <Compile Include="Assets\scripts\eagleRandom2.cs" />
     <Compile Include="Assets\scripts\Enemy.cs" />
     <Compile Include="Assets\scripts\Enemy_control.cs" />
     <Compile Include="Assets\scripts\EnemyRandom.cs" />
@@ -76,11 +79,13 @@
     <Compile Include="Assets\scripts\Healthbar.cs" />
     <Compile Include="Assets\scripts\Heart_scripts.cs" />
     <Compile Include="Assets\scripts\HeartEffect.cs" />
+    <Compile Include="Assets\scripts\HeartRandom2.cs" />
+    <Compile Include="Assets\scripts\HeartRandom3.cs" />
     <Compile Include="Assets\scripts\menu_controller.cs" />
     <Compile Include="Assets\scripts\NextScene.cs" />
     <Compile Include="Assets\scripts\player_controller.cs" />
-    <Compile Include="Assets\scripts\Posionball.cs" />
     <Compile Include="Assets\scripts\Score.cs" />
+    <Compile Include="Assets\scripts\Spikes.cs" />
     <Compile Include="Assets\scripts\Tutorial.cs" />
     <Compile Include="Assets\scripts\Weapon.cs" />
     <Reference Include="Unity.Timeline.Editor">

@@ -64,7 +64,7 @@ public class player_controller : MonoBehaviour {
     public void TakeEffect()
     {
         GameObject e = Instantiate(attackEffect) as GameObject;
-        e.transform.position = transform.position;
+        e.transform.position = transform.position; 
         Debug.Log("Take Effect of player");
         Destroy(e, 0.5f);
     }

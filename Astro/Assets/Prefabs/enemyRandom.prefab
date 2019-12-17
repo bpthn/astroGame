@@ -83,7 +83,7 @@ MonoBehaviour:
   enemy2: {fileID: 5480893539663154299, guid: 64c36cf9ab4eace49aff83548b13ec7e, type: 3}
   enemy3: {fileID: 8286305086122647428, guid: e491d2543136d884283a21cc1d0c3226, type: 3}
   enemy4: {fileID: 1867192121903379090, guid: ff157896a4d40a14a8fbf5070b4d7efa, type: 3}
-  spawnRate: 3
+  spawnRate: 4
 --- !u!114 &-3353175753317222437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f27ee9a42b2d57b46a83bb375bdde740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy1: {fileID: 0}
-  enemy2: {fileID: 0}
-  enemy3: {fileID: 0}
+  enemy1: {fileID: 4251012103987497934, guid: 8263f4ecad0c39f4d925cdafec9d477e, type: 3}
+  enemy2: {fileID: 5480893539663154299, guid: 64c36cf9ab4eace49aff83548b13ec7e, type: 3}
+  enemy3: {fileID: 8286305086122647428, guid: e491d2543136d884283a21cc1d0c3226, type: 3}
   enemy4: {fileID: 0}
-  spawnRate: 4
+  spawnRate: 6

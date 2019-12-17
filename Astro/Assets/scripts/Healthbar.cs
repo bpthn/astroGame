@@ -28,12 +28,12 @@ public class Healthbar : MonoBehaviour
         {
             
             healthbar.fillAmount = health / maxHealth;
-            Debug.Log(health);
+            //Debug.Log(health);
         }
         else
         {
             //gameOvertxt.SetActive(true);
-            SceneManager.LoadScene(sceneName);
+            //SceneManager.LoadScene(sceneName);
         }
 
     }
