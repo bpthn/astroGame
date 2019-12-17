@@ -26,11 +26,12 @@ public class bullet : MonoBehaviour
             enemy.TakeDamage(damage);
             
         }
+
+
         GameObject e = Instantiate(impactEffect) as GameObject;
         e.transform.position = transform.position;
+        Destroy(e, 0.6f);
 
-
-        Destroy(e, 0.4f);
         //Destroy(hitInfo.gameObject);
         Destroy(gameObject);
         

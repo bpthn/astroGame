@@ -22,6 +22,7 @@ public class EnemyRandom2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         enemy.Add(enemy1);
         enemy.Add(enemy2);
         //enemy.Add(enemy3);
@@ -32,7 +33,12 @@ public class EnemyRandom2 : MonoBehaviour
             nextSpawn = Time.time + spawnRate;
             randX = Random.Range(5, 55);
             whereToSpawn = new Vector2(randX, -3.5f);
-            Instantiate(enemy[index], whereToSpawn, Quaternion.identity);
+            if(Enemy.count < 18)
+            {
+                Instantiate(enemy[index], whereToSpawn, Quaternion.identity);
+                Debug.Log("Random enemy");
+            }
+
         }
     }
 }

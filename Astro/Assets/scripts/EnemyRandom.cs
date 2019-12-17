@@ -31,7 +31,11 @@ public class EnemyRandom : MonoBehaviour
             randX = Random.Range(5, 55);
             Debug.Log(randX);
             whereToSpawn = new Vector2(randX, -3.5f);
-            Instantiate(enemy[index], whereToSpawn, Quaternion.identity);
+            if (Enemy.count < 10)
+            {
+                Instantiate(enemy[index], whereToSpawn, Quaternion.identity);
+                Debug.Log("Random enemy");
+            }
         }
     }
 }

@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public int health = 100;
     public GameObject deathEffect;
     public string sceneName;
+    public static int count = 0;
     // public GameObject attackEffect;
 
 
@@ -110,7 +111,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        count += 1;
     }
 
     // Update is called once per frame

@@ -115,7 +115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 120
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 7805817843403581349, guid: 9ee231a77946ece47ab4cce9c2c373b5,
+    type: 3}
   sceneName: Win
 --- !u!61 &-4351449741644462334
 BoxCollider2D:

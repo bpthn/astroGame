@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\astronaunt_controllerjump.cs" />
-    <Compile Include="Assets\scripts\bg.cs" />
     <Compile Include="Assets\scripts\bullet.cs" />
     <Compile Include="Assets\scripts\CameraFollow.cs" />
     <Compile Include="Assets\scripts\Eagle.cs" />
@@ -75,7 +74,6 @@
     <Compile Include="Assets\scripts\EnemyRandom.cs" />
     <Compile Include="Assets\scripts\EnemyRandom2.cs" />
     <Compile Include="Assets\scripts\EnemyRandom3.cs" />
-    <Compile Include="Assets\scripts\floor.cs" />
     <Compile Include="Assets\scripts\Healthbar.cs" />
     <Compile Include="Assets\scripts\Heart_scripts.cs" />
     <Compile Include="Assets\scripts\HeartEffect.cs" />
